@@ -7,6 +7,10 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 
 // Splash Screen
 
+// Custom Icons
+import NestJSIcon from "./assets/images/icons/Nest.js.svg";
+import NextJSIcon from "./assets/images/icons/Next.js.svg";
+
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
@@ -49,10 +53,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front-end, Back-end / User Interfaces for your web applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
@@ -61,9 +65,78 @@ const skillsSection = {
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
-  softwareSkills: [
+  https://fontawesome.com/icons?d=gallery */
+  softwareSkills: {
+    "Front-end": [
+      {
+        skillName: "html-5",
+        fontAwesomeClassname: "fab fa-html5",
+        type: "font"
+      },
+      {
+        skillName: "css3",
+        fontAwesomeClassname: "fab fa-css3-alt",
+        type: "font"
+      },
+      {
+        skillName: "sass",
+        fontAwesomeClassname: "fab fa-sass",
+        type: "font"
+      },
+      {
+        skillName: "JavaScript",
+        fontAwesomeClassname: "fab fa-js",
+        type: "font"
+      },
+      {
+        skillName: "reactjs",
+        fontAwesomeClassname: "fab fa-react",
+        type: "font"
+      },
+      {
+        skillName: "nextjs",
+        svg: NextJSIcon,
+        type: "svg"
+      },
+      {
+        skillName: "nodejs",
+        fontAwesomeClassname: "fab fa-node",
+        type: "font"
+      },
+      {
+        skillName: "npm",
+        fontAwesomeClassname: "fab fa-npm",
+        type: "font"
+      },
+    ],
+    "Back-end": [
+      {
+        skillName: "NestJS",
+        svg: NestJSIcon,
+        type: "svg"
+      },
+      {
+        skillName: "python",
+        fontAwesomeClassname: "fab fa-python",
+        type: "font"
+      },
+      {
+        skillName: "PHP",
+        fontAwesomeClassname: "fab fa-php",
+        type: "font"
+      },
+    ],
+    "DevOps / Tools": [
+      {
+        skillName: "Docker",
+        fontAwesomeClassname: "fab fa-docker",
+        type: "font"
+      },
+    ]
+    // "Back-end": ["Node.js", "Python", "SQL Database", "Firebase", "AWS"],
+    // "DevOps / Tools": ["Docker", "NPM"]
+  },
+  softwareSkillss: [
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -85,12 +158,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "nextjs",
+      fontAwesomeClassname: "fab fa-next"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
       skillName: "npm",
@@ -176,7 +249,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companyLogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -187,14 +260,35 @@ const workExperiences = {
     {
       role: "Front-End Developer",
       company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companyLogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companyLogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Airbnb",
+      companyLogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Airbnb",
+      companyLogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Airbnb",
+      companyLogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }

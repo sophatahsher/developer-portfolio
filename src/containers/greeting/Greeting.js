@@ -8,6 +8,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import BackgroundEffect from "../../components/BackgroundEffect";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -16,6 +17,8 @@ export default function Greeting() {
   }
   return (
     <Fade bottom duration={1000} distance="40px">
+      {/* Background effect goes behind */}
+      <BackgroundEffect />
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">

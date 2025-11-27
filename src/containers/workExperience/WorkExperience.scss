@@ -6,7 +6,7 @@
 
 .experience-heading {
   font-size: 56px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .experience-container {
@@ -20,7 +20,30 @@
 .experience-container > * {
   flex: 1;
 }
-
+.header-title {
+  position: relative;
+  padding-bottom: 25px;
+  width: fit-content;
+}
+.header-title h1 {
+  font-family: caveat;
+}
+.kQiChz {
+  position: relative;
+  left: 0px;
+  bottom: 28px;
+  z-index: -1;
+  min-width: calc(100% + 7px);
+  height: 7px;
+}
+.dgrCFv {
+    display: block;
+    overflow: visible;
+}
+.dgrCFv path {
+    vector-effect: non-scaling-stroke;
+    stroke: var(--stroke-color, hsl(250deg 80% 80% / 0.85));
+}
 /* Media Query */
 
 @media (max-width: 1380px) {
