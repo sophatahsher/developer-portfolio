@@ -1,0 +1,110 @@
+.floating-token {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(8px);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  pointer-events: auto; /* allow hover */
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  animation: float 6s ease-in-out infinite alternate;
+}
+/* Pseudo-elements for border layers */
+.floating-token::before,
+.floating-token::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none; /* don't block hover */
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+/* First outer layer */
+.floating-token::before {
+  width: 120%;
+  height: 120%;
+  top: -10%;
+  left: -10%;
+  border: 2px solid transparent;
+}
+
+/* Second outer layer */
+.floating-token::after {
+  width: 140%;
+  height: 140%;
+  top: -20%;
+  left: -20%;
+  border: 2px solid transparent;
+}
+.floating-token:hover {
+  filter: blur(0);
+  background-color: transparent;
+}
+.floating-token:hover::before {
+  border-color: var(--token-color);
+}
+
+.floating-token:hover::after {
+  border-color: var(--token-color);
+}
+/* Show borders on hover, color will be set inline */
+.floating-token:hover::before {
+  opacity: 1;
+}
+.floating-token:hover::after {
+  opacity: 0.3;
+}
+.token-symbol {
+  pointer-events: none;
+  pointer-events: auto; /* enable hover effects */
+  display: inline-block;
+  transition: opacity 0.3s ease; /* smooth animation */
+  opacity: 1; /* normal state */
+}
+.token-symbol:hover {
+  opacity: 0.45; /* 45% visibility on hover */
+  animation: swirl 0.5s linear infinite;
+  transform-origin: center;
+}
+.token-tooltip {
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 6px 10px;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  font-size: 12px;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.floating-token:hover .token-tooltip {
+  opacity: 1;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes swirl {
+  0%   { transform: translate(0px, 0px); }
+  25%  { transform: translate(2px, -2px); }
+  50%  { transform: translate(0px, -4px); }
+  75%  { transform: translate(-2px, -2px); }
+  100% { transform: translate(0px, 0px); }
+}

@@ -11,6 +11,15 @@
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
+  pointer-events: none;
+}
+.greet-main * {
+  pointer-events: auto; /* re-enable pointer events for actual interactive elements */
+}
+.greet-main button,
+.greet-main a,
+.greet-main input {
+  pointer-events: auto;
 }
 
 .greeting-main {
