@@ -23,27 +23,43 @@ const illustration = {
   animated: true // Set to false to use static SVG
 };
 
+// const greeting = {
+//   username: "Saad Pasta",
+//   title: "Hi, I’m Sophat Chhay",
+//   subTitle: emoji(
+//     "I’m a passionate Full Stack Developer <span className=\"emoji\">🚀</span> with experience building modern web applications using JavaScript, React, Vue, Node.js, PHP, and Python. <br/> I enjoy creating scalable, user-friendly solutions and continuously learning new technologies."
+//   ),
+//   resumeLink:
+//     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+//   displayGreeting: true // Set false to hide this section, defaults to true
+// };
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+  username: "Sher",
+  title: "Hi, I’m Sophat Chhay",
+  subTitle: (
+    <>
+      <p><span className="inline-text">I’m a passionate Full Stack Developer 🚀</span> with experience building modern web
+      applications using JavaScript, React, Vue, Node.js, PHP, and Python.</p>
+
+      <p>I enjoy creating scalable, user-friendly solutions and continuously
+      learning new technologies.</p>
+    </>
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "https://drive.google.com/uc?export=download&id=15GAORsB0WzXqxk0uxgDJLTwOGfnJx86s", // "https://drive.google.com/file/d/15GAORsB0WzXqxk0uxgDJLTwOGfnJx86s/view?usp=sharing",
+  resumeName: "SophatChhay_Resume.pdf",
+  displayGreeting: true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/sophatahsher",
+  linkedin: "https://www.linkedin.com/in/sophat-chhay/",
+  gmail: "sophat.chhay@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -54,14 +70,11 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  // title: (<><span className="inline-text">Achievements And Certifications 🏆</span></>),
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front-end, Back-end / User Interfaces for your web applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    (<>⚡ Develop highly interactive Front-end, Back-end / User Interfaces for your web applications</>),
+    (<>⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks</>),
+    (<>⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean</>)
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -69,17 +82,17 @@ const skillsSection = {
   softwareSkills: {
     "Front-end": [
       {
-        skillName: "html-5",
+        skillName: "HTML",
         fontAwesomeClassname: "fab fa-html5",
         type: "font"
       },
       {
-        skillName: "css3",
+        skillName: "CSS3",
         fontAwesomeClassname: "fab fa-css3-alt",
         type: "font"
       },
       {
-        skillName: "sass",
+        skillName: "Sass",
         fontAwesomeClassname: "fab fa-sass",
         type: "font"
       },
@@ -89,17 +102,17 @@ const skillsSection = {
         type: "font"
       },
       {
-        skillName: "reactjs",
+        skillName: "Reactjs",
         fontAwesomeClassname: "fab fa-react",
         type: "font"
       },
       {
-        skillName: "nextjs",
+        skillName: "Nextjs",
         svg: NextJSIcon,
         type: "svg"
       },
       {
-        skillName: "nodejs",
+        skillName: "Nodejs",
         fontAwesomeClassname: "fab fa-node",
         type: "font"
       },
@@ -116,7 +129,7 @@ const skillsSection = {
         type: "svg"
       },
       {
-        skillName: "python",
+        skillName: "Django REST/FastAPI",
         fontAwesomeClassname: "fab fa-python",
         type: "font"
       },
@@ -130,6 +143,11 @@ const skillsSection = {
       {
         skillName: "Docker",
         fontAwesomeClassname: "fab fa-docker",
+        type: "font"
+      },
+      {
+        skillName: "Jenkins",
+        fontAwesomeClassname: "fab fa-jenkins",
         type: "font"
       },
     ]
@@ -199,24 +217,13 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Build Bright University",
+      logo: require("./assets/images/bbu-logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+      duration: "2006 - 2010",
+      desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: []
+    },
   ]
 };
 
@@ -247,50 +254,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companyLogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Sr. Frontend Developer",
+      company: "KEX Crypto Exchange",
+      companyLogo: require("./assets/images/kex-logo.png"),
+      date: "September 2024 – December 2025",
+      desc: "Worked on a crypto exchange platform, building a user-facing web application for buying and selling cryptocurrency. Collaborated closely with backend, DevOps, UX/UI, and product teams to deliver seamless API integration and user experience. Also developed and maintained an internal CMS for backend management, supporting operational workflows and data administration.",
+      descBullets: []
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companyLogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Back-end Lead",
+      company: "Tov Ban",
+      companyLogo: require("./assets/images/tovban-logo.jpg"),
+      date: "November 2020 – December 2022",
+      desc: "Led backend development at TovBan, Cambodia’s freelancing platform, focusing on scalable API design, system architecture, and cloud infrastructure (AWS, DigitalOcean). Collaborated with product and engineering teams to deliver key features. Handled team coordination, third-party integrations (including payment gateways), and implemented real-time systems such as chat and notifications using WebSockets and Firebase."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companyLogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "API Product Manager",
+      company: "Cotafer",
+      companyLogo: require("./assets/images/cotafer-logo.jpg"),
+      date: "May 2018 – November 2020",
+      desc: "Developed and maintained back-end APIs for mobile and web applications, handling database integration, request processing, and response management. Collaborated with front-end and mobile teams to build scalable, reliable, and high-performance systems for various business platforms."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companyLogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Web Developer",
+      company: "Zustro",
+      companyLogo: require("./assets/images/zustro-logo.jpeg"),
+      date: "April 2014 – April 2018",
+      desc: "Responsible for developing and maintaining front-end applications for online casino platforms, integrating user interfaces with back-end APIs, and ensuring smooth real-time functionality. Also customized and enhanced the back-office management system by adding new features and improving administrative workflows for internal operations."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companyLogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companyLogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Design",
+      company: "Reddot Co., LTD",
+      companyLogo: require("./assets/images/reddot-logo.jpeg"),
+      date: "May 2009 – May 2011",
+      desc: "Contributed to a Cambodia Ministry of Tourism platform featuring accommodations, restaurants, and attractions. Built frontend features and an admin portal for managing listings, and also developed dynamic websites for various external clients."
     }
   ]
 };
@@ -310,8 +307,8 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      image: require("./assets/images/tovban-website-sample.png"),
+      projectName: "Online Working Platform",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -322,9 +319,31 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/activeitzone-ecommerce.png"),
+      projectName: "Ecommerce Website",
+      projectDesc: "Has completed customize Ecommerce Platform",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/cotafer-booking.png"),
+      projectName: "Accommodation Booking",
+      projectDesc: "Has completed built an Booking System Platform both front-end website for users, and Partners Portal System.",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "http://nextu.se/"
+        // }
+      ]
+    },
+    {
+      image: require("./assets/images/zustrocom_cover.jpeg"),
+      projectName: "Live Casino Online",
+      projectDesc: "Contributed the online entertainment projects, specializing in live dealer games, slots, and sports betting products.",
       footerLink: [
         {
           name: "Visit Website",
@@ -338,58 +357,75 @@ const bigProjects = {
 
 // Achievement Section
 // Include certificates, talks etc
-
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  // title: emoji("Achievements And Certifications 🏆"),
+  title: (<><span className="inline-text">Achievements And Certifications 🏆</span></>),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "KEX Exchange",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Successfully delivered and launched (go-live) a cryptocurrency exchange platform, including the frontend trading website and internal CMS management system. Contributed to multiple sub-projects (microservices), supporting scalable system architecture and smooth cross-team integration for production deployment.",
+      image: require("./assets/images/Kex-Exchange.png"),
+      imageAlt: "Kex Exchange Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Kex Exchange",
+          url: "https://www.kexb.pro/"
         }
       ]
+      // footerLink: [
+      //   {
+      //     name: "Certification",
+      //     url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+      //   },
+      //   {
+      //     name: "Award Letter",
+      //     url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+      //   },
+      //   {
+      //     name: "Google Code-in Blog",
+      //     url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+      //   }
+      // ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Tovban Freelancing Platform",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Successfully delivered a full-featured freelancing platform connecting clients and freelancers, including project workflow management and milestone-based collaboration. Integrated secure payment systems such as ABA PayWay for client deposits and H2H payment release for freelancer payouts, ensuring a reliable and end-to-end transaction process.",
+      image: "https://media.licdn.com/dms/image/v2/C560BAQHFArB4cpwWQA/company-logo_200_200/company-logo_200_200/0/1630636293842?e=1779321600&v=beta&t=EIXfQiv4yKtYeOb1TjVg3JXctNybFu--jqBBrNDn-L8",
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "TovBan Company",
+          url: "https://www.linkedin.com/company/tovban/?originalSubdomain=kh"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Contributor at Zustro",
+      subtitle: "Contributed to the successful launch of a new production release, supporting development and deployment efforts across the team. Completed certification recognizing contribution to the project’s delivery and production readiness.",
+      image: require("./assets/images/zustrocom_cover.jpeg"),
+      imageAlt: "Certificate Image",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "Certification", url: "https://media.licdn.com/dms/image/v2/C562DAQE9KCFNzuKsYQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1599235009405?e=1778389200&v=beta&t=B5lmnxQfV1qbOGeSbcEFks3vsqxLLHMyKc18zMtcyzw"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "Freelance",
+      subtitle: "Built a web-based guide platform for the Kampot Governor’s Department, helping showcase local information and improve public access to regional resources.",
+      image: require("./assets/images/kampottic.jpg"),
+      imageAlt: "Certificate Image",
+      footerLink: [
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Kampottic",
+          url: "https://kampottic.com"
         }
       ]
     }

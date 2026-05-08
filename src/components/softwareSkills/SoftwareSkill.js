@@ -31,7 +31,7 @@ export default function SoftwareSkill() {
                   {tech.type === "font" ? (
                     <i className={tech.fontAwesomeClassname} style={{ fontSize: "28px", width: "28px", height: "28px", textAlign: "center" }}></i>
                   ) : (
-                    <img src={tech.svg} alt={tech.skillName} style={{ width: "28px", height: "28px", objectFit: "contain" }} />
+                    <img src={tech.svg} alt={tech.skillName} style={{ width: "28px", height: "24px", objectFit: "contain" }} />
                   )}
                   <span>{tech.skillName}</span>
                 </div>

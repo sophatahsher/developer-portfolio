@@ -72,7 +72,7 @@ export default function StartupProject() {
                             <span
                               key={i}
                               className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
+                                isDark ? "dark-mode project-tags main-button" : "project-tags main-button"
                               }
                               onClick={() => openUrlInNewTab(link.url)}
                             >

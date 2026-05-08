@@ -60,6 +60,12 @@
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
+  white-space: pre-line;
+  display: inline-block;
+
+  p {
+    padding-bottom: 40px;
+  }
 }
 
 .greeting-image-div > img {

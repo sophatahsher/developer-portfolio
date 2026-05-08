@@ -94,8 +94,8 @@
 .experience-text-role {
   text-align: center;
   color: $textColor;
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: 600;
+  font-size: 22px;
   margin: 0px;
   padding-top: 1.5rem;
   line-height: normal;
@@ -105,15 +105,18 @@
 }
 .experience-text-date {
   text-align: center;
-  color: $textColor;
-  font-size: 20px;
+  color: $subTitle !important;
+  font-size: 16px;
   margin: 0px;
-  padding-top: 1rem;
-  font-weight: 600;
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+  font-weight: 500;
 }
 
 .experience-text-desc {
   text-align: center;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 .experience-text-details {

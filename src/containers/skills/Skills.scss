@@ -8,6 +8,10 @@
 
 .skills-text-div {
   margin-left: 50px;
+
+  .skills-text {
+    line-height: 32px;
+  }
 }
 
 .skills-main-div > * {
@@ -21,11 +25,13 @@
 }
 
 .skills-heading {
+  font-family: caveat;
   font-size: 56px;
   font-weight: 400;
 }
 .subTitle {
   color: $subTitle;
+  text-transform: capitalize;
 }
 
 /* Media Query */

@@ -66,7 +66,7 @@ git@2.17.1 or higher
 ```
 
 
-## How To Use 
+## How To Use
 
 From your command line, clone and run developerFolio:
 
@@ -97,7 +97,7 @@ Generate a classic GitHub personal access token following these [instructions](h
 
 1. Create a file called .env in the root directory of your project (if not done already in section: [How To Use](#how-to-use))
 
-Note: Configuring environment variables before deploying your portfolio is highly recommended as some components depend on API data. 
+Note: Configuring environment variables before deploying your portfolio is highly recommended as some components depend on API data.
 
 ```bash
 - DeveloperFolio
@@ -162,11 +162,9 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/sophatahsher",
+  linkedin: "https://www.linkedin.com/in/sophat-chhay/",
+  gmail: "sophat.chhay@gmail.com",
 };
 
 
@@ -190,7 +188,7 @@ const twitterDetails = { ... }
 
 ```
 #### Resume upload
-To upload your own resume, simply upload a pdf to `src/containers/greeting/resume` and rename the pdf to `resume.pdf`. 
+To upload your own resume, simply upload a pdf to `src/containers/greeting/resume` and rename the pdf to `resume.pdf`.
 
 #### Using Emojis
 
@@ -242,7 +240,7 @@ You could also host directly with Netlify by linking your own repository.
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 
-## Technologies Used 
+## Technologies Used
 
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/)
@@ -266,7 +264,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 - Add More Sections
 
-## Project Maintainers 
+## Project Maintainers
 
 <table>
   <tr>
@@ -277,7 +275,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
   </tr>
 </table>
 
-## Contributors 
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 

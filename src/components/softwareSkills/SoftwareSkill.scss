@@ -2,6 +2,7 @@
 $gap-large: 2.5rem;
 $gap-small: 1rem;
 $min-block-width: 250px;
+$fontw-medium: 500;
 
 .dev-icons {
   padding-left: 0;
@@ -44,6 +45,7 @@ $min-block-width: 250px;
     flex: 1 1 $min-block-width;
 
     h3 {
+      font-weight: $fontw-medium;
       margin-bottom: $gap-small;
     }
 

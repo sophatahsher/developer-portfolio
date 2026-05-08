@@ -1,24 +1,44 @@
 @font-face {
   font-family: 'Macan';
-  src: url('./assets/fonts/MacanPanWeb-Regular.woff2') format('woff2');
+  /* src: url('./assets/fonts/MacanPanWeb-Regular.woff2') format('woff2'); */
+  src: url('./assets/fonts/macan-light.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Macan';
-  src: url('./assets/fonts/MacanPanWeb-Medium.woff2') format('woff2');
+  /* src: url('./assets/fonts/MacanPanWeb-Regular.woff2') format('woff2'); */
+  src: url('./assets/fonts/macan-regular.woff') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Macan';
-  src: url('./assets/fonts/MacanPanWeb-Semibold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
+  /* src: url('./assets/fonts/MacanPanWeb-Medium.woff2') format('woff2'); */
+  src: url('./assets/fonts/macan-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: medium;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Macan';
+  /* src: url('./assets/fonts/MacanPanWeb-Semibold.woff2') format('woff2'); */
+  src: url('./assets/fonts/macan-bold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: 'semibold';
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Macan';
+  /* src: url('./assets/fonts/MacanPanWeb-Semibold.woff2') format('woff2'); */
+  src: url('./assets/fonts/macan-light.woff2') format('woff2');
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
+
 @font-face {
   font-family: "Agustina Regular";
   font-style: normal;

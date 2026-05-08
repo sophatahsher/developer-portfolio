@@ -2,10 +2,10 @@
 
 .profile-image {
   border-radius: 50%;
-  border: 0.5rem solid $githubProfileCardBorder;
+  border: 0.3rem solid $githubProfileCardBorder;
   margin-left: auto;
   width: 100%;
-  max-width: 350px;
+  max-width: 150px;
   height: auto;
   box-shadow: $lightBoxShadow 0 30px 30px -30px;
   transition: all 0.3s ease-out;
@@ -47,11 +47,15 @@
 .bio-text {
   line-height: 30px;
   font-size: 22px;
+  font-weight: 700;
 }
 
 .desc-prof {
   line-height: 45px;
   font-size: 19px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .subTitle {

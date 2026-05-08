@@ -29,7 +29,8 @@ export default function Greeting() {
                   {greeting.title}{" "}
                   <span className="wave-emoji">{emoji("👋")}</span>
                 </h1>
-                <p
+                <br/>
+                <div
                   className={
                     isDark
                       ? "dark-mode greeting-text-p"
@@ -37,15 +38,18 @@ export default function Greeting() {
                   }
                 >
                   {greeting.subTitle}
-                </p>
+                </div>
                 <div id="resume" className="empty-div"></div>
                 <SocialMedia />
                 <div className="button-greeting-div">
                   <Button text="Contact me" href="#contact" />
                   {greeting.resumeLink && (
                     <a
-                      href={require("./resume.pdf")}
-                      download="Resume.pdf"
+                      // href={require("./resume.pdf")}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={greeting.resumeLink}
+                      download={greeting.resumeName}
                       className="download-link-button"
                     >
                       <Button text="Download my resume" />
