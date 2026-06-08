@@ -2,12 +2,12 @@ import React from "react";
 import "./FloatingBackground.css"; // We'll define animations here
 
 const tokens = [
-  { id: 1, symbol: "BTC", name: "Bitcoin", color: "#f7931a" },
-  { id: 2, symbol: "ETH", name: "Ethereum", color: "#627eea" },
-  { id: 3, symbol: "DOGE", name: "Dogecoin", color: "#c2a633" },
-  { id: 4, symbol: "UNI", name: "Uniswap", color: "#ff007a" },
-  { id: 5, symbol: "SOL", name: "Solana", color: "#00ffa3" },
-  { id: 6, symbol: "ADA", name: "Cardano", color: "#0033ad" },
+  {id: 1, symbol: "BTC", name: "Bitcoin", color: "#f7931a"},
+  {id: 2, symbol: "ETH", name: "Ethereum", color: "#627eea"},
+  {id: 3, symbol: "DOGE", name: "Dogecoin", color: "#c2a633"},
+  {id: 4, symbol: "UNI", name: "Uniswap", color: "#ff007a"},
+  {id: 5, symbol: "SOL", name: "Solana", color: "#00ffa3"},
+  {id: 6, symbol: "ADA", name: "Cardano", color: "#0033ad"}
   // add more tokens if needed
 ];
 
@@ -30,7 +30,7 @@ export default function FloatingBackground() {
               height: size,
               backgroundColor: token.color + "55", // semi-transparent
               animationDelay: `${delay}s`,
-              '--token-color': token.color, // CSS variable for border
+              "--token-color": token.color // CSS variable for border
             }}
           >
             <span className="token-symbol">{token.symbol}</span>

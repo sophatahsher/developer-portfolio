@@ -23,7 +23,7 @@ export default function Profile() {
             }
           })
           .then(response => {
-            console.log('response______', response);
+            console.log("response______", response);
             setProfileFunction(response.data.user);
           })
           .catch(function (error) {

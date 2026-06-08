@@ -10,7 +10,7 @@
   pointer-events: auto; /* allow hover */
   color: white;
   font-weight: bold;
-  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   animation: float 6s ease-in-out infinite alternate;
 }
 /* Pseudo-elements for border layers */
@@ -76,7 +76,7 @@
   left: 50%;
   transform: translateX(-50%);
   padding: 6px 10px;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
   color: white;
   font-size: 12px;
   border-radius: 6px;
@@ -102,9 +102,19 @@
   }
 }
 @keyframes swirl {
-  0%   { transform: translate(0px, 0px); }
-  25%  { transform: translate(2px, -2px); }
-  50%  { transform: translate(0px, -4px); }
-  75%  { transform: translate(-2px, -2px); }
-  100% { transform: translate(0px, 0px); }
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(2px, -2px);
+  }
+  50% {
+    transform: translate(0px, -4px);
+  }
+  75% {
+    transform: translate(-2px, -2px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
 }

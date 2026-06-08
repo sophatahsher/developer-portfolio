@@ -15,8 +15,18 @@ export default function WorkExperience() {
             <div>
               <div className="header-title">
                 <h1 className="experience-heading">Experiences</h1>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 192 7" preserveAspectRatio="none" class="dgrCFv kQiChz">
-                  <path stroke-linecap="round" stroke-width="3" d="M1 3.409S50.376-.539 85 1.673c13.942.891 16.501 3.618 30.5 3.472 12.647-.133 19.355-3.662 32-3.472 11.105.168 14.5 6.596 28 3.472C189 2.02 191 3.409 191 3.409"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 192 7"
+                  preserveAspectRatio="none"
+                  class="dgrCFv kQiChz"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-width="3"
+                    d="M1 3.409S50.376-.539 85 1.673c13.942.891 16.501 3.618 30.5 3.472 12.647-.133 19.355-3.662 32-3.472 11.105.168 14.5 6.596 28 3.472C189 2.02 191 3.409 191 3.409"
+                  ></path>
                 </svg>
               </div>
               <div className="experience-cards-div">

@@ -1,4 +1,4 @@
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 fs = require("fs");
 const https = require("https");
@@ -9,9 +9,9 @@ const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
 const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
 const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME || undefined;
-console.log('=====', GITHUB_TOKEN);
-console.log('=====', GITHUB_USERNAME);
-console.log('=====', USE_GITHUB_DATA);
+console.log("=====", GITHUB_TOKEN);
+console.log("=====", GITHUB_USERNAME);
+console.log("=====", USE_GITHUB_DATA);
 const ERR = {
   noUserName:
     "Github Username was found to be undefined. Please set all relevant environment variables.",

@@ -17,19 +17,24 @@ export default function Greeting() {
   }
   return (
     <Fade bottom duration={1000} distance="40px">
-      <div className="relative w-full h-[600px] md:h-[700px] lg:h-[800px]" id="greeting">
+      <div
+        className="relative w-full h-[600px] md:h-[700px] lg:h-[800px]"
+        id="greeting"
+      >
         <div className="greet-main relative">
           <div className="greeting-main">
             <div className="greeting-text-div">
               <div>
                 <h1
-                  className={isDark ? "dark-mode greeting-text" : "greeting-text"}
+                  className={
+                    isDark ? "dark-mode greeting-text" : "greeting-text"
+                  }
                 >
                   {" "}
                   {greeting.title}{" "}
                   <span className="wave-emoji">{emoji("👋")}</span>
                 </h1>
-                <br/>
+                <br />
                 <div
                   className={
                     isDark
@@ -70,7 +75,9 @@ export default function Greeting() {
             </div>
           </div>
         </div>
-        <div className="z-50"><FloatingBackground /></div>
+        <div className="z-50">
+          <FloatingBackground />
+        </div>
       </div>
     </Fade>
   );

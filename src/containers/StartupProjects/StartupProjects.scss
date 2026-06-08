@@ -60,10 +60,10 @@
 
   .project-image img {
     width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: top;
-  display: block;
+    height: 100%;
+    object-fit: contain;
+    object-position: top;
+    display: block;
   }
 }
 
@@ -78,9 +78,9 @@
   flex-wrap: wrap;
   justify-content: center;
 
-    .main-button {
-      margin: 20px auto 0px auto;
-    }
+  .main-button {
+    margin: 20px auto 0px auto;
+  }
 }
 .project-card-footer span.project-tag {
   background: $buttonColor;

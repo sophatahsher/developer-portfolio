@@ -7,8 +7,8 @@ export interface TokenData {
   iconUrl?: string; // Optional real image URL
   fallbackLetter: string;
   position: {
-    top: string;
-    left: string;
+    top: string,
+    left: string
   };
-  size: 'sm' | 'md' | 'lg';
+  size: "sm" | "md" | "lg";
 }

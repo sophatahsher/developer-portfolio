@@ -38,14 +38,22 @@ const greeting = {
   title: "Hi, I’m Sophat Chhay",
   subTitle: (
     <>
-      <p><span className="inline-text">I’m a passionate Full Stack Developer 🚀</span> with experience building modern web
-      applications using JavaScript, React, Vue, Node.js, PHP, and Python.</p>
+      <p>
+        <span className="inline-text">
+          I’m a passionate Full Stack Developer 🚀
+        </span>{" "}
+        with experience building modern web applications using JavaScript,
+        React, Vue, Node.js, PHP, and Python.
+      </p>
 
-      <p>I enjoy creating scalable, user-friendly solutions and continuously
-      learning new technologies.</p>
+      <p>
+        I enjoy creating scalable, user-friendly solutions and continuously
+        learning new technologies.
+      </p>
     </>
   ),
-  resumeLink: "https://drive.google.com/uc?export=download&id=15GAORsB0WzXqxk0uxgDJLTwOGfnJx86s", // "https://drive.google.com/file/d/15GAORsB0WzXqxk0uxgDJLTwOGfnJx86s/view?usp=sharing",
+  resumeLink:
+    "https://drive.google.com/uc?export=download&id=15GAORsB0WzXqxk0uxgDJLTwOGfnJx86s", // "https://drive.google.com/file/d/15GAORsB0WzXqxk0uxgDJLTwOGfnJx86s/view?usp=sharing",
   resumeName: "SophatChhay_Resume.pdf",
   displayGreeting: true
 };
@@ -72,9 +80,15 @@ const skillsSection = {
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   // title: (<><span className="inline-text">Achievements And Certifications 🏆</span></>),
   skills: [
-    (<>⚡ Develop highly interactive Front-end, Back-end / User Interfaces for your web applications</>),
-    (<>⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks</>),
-    (<>⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean</>)
+    <>
+      ⚡ Develop highly interactive Front-end, Back-end / User Interfaces for
+      your web applications
+    </>,
+    <>⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks</>,
+    <>
+      ⚡ Integration of third party services such as Firebase/ AWS / Digital
+      Ocean
+    </>
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -120,7 +134,7 @@ const skillsSection = {
         skillName: "npm",
         fontAwesomeClassname: "fab fa-npm",
         type: "font"
-      },
+      }
     ],
     "Back-end": [
       {
@@ -137,7 +151,7 @@ const skillsSection = {
         skillName: "PHP",
         fontAwesomeClassname: "fab fa-php",
         type: "font"
-      },
+      }
     ],
     "DevOps / Tools": [
       {
@@ -149,7 +163,7 @@ const skillsSection = {
         skillName: "Jenkins",
         fontAwesomeClassname: "fab fa-jenkins",
         type: "font"
-      },
+      }
     ]
     // "Back-end": ["Node.js", "Python", "SQL Database", "Firebase", "AWS"],
     // "DevOps / Tools": ["Docker", "NPM"]
@@ -223,7 +237,7 @@ const educationInfo = {
       duration: "2006 - 2010",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: []
-    },
+    }
   ]
 };
 
@@ -332,7 +346,8 @@ const bigProjects = {
     {
       image: require("./assets/images/cotafer-booking.png"),
       projectName: "Accommodation Booking",
-      projectDesc: "Has completed built an Booking System Platform both front-end website for users, and Partners Portal System.",
+      projectDesc:
+        "Has completed built an Booking System Platform both front-end website for users, and Partners Portal System.",
       footerLink: [
         // {
         //   name: "Visit Website",
@@ -343,7 +358,8 @@ const bigProjects = {
     {
       image: require("./assets/images/zustrocom_cover.jpeg"),
       projectName: "Live Casino Online",
-      projectDesc: "Contributed the online entertainment projects, specializing in live dealer games, slots, and sports betting products.",
+      projectDesc:
+        "Contributed the online entertainment projects, specializing in live dealer games, slots, and sports betting products.",
       footerLink: [
         {
           name: "Visit Website",
@@ -359,7 +375,11 @@ const bigProjects = {
 // Include certificates, talks etc
 const achievementSection = {
   // title: emoji("Achievements And Certifications 🏆"),
-  title: (<><span className="inline-text">Achievements And Certifications 🏆</span></>),
+  title: (
+    <>
+      <span className="inline-text">Achievements And Certifications 🏆</span>
+    </>
+  ),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -395,7 +415,8 @@ const achievementSection = {
       title: "Tovban Freelancing Platform",
       subtitle:
         "Successfully delivered a full-featured freelancing platform connecting clients and freelancers, including project workflow management and milestone-based collaboration. Integrated secure payment systems such as ABA PayWay for client deposits and H2H payment release for freelancer payouts, ensuring a reliable and end-to-end transaction process.",
-      image: "https://media.licdn.com/dms/image/v2/C560BAQHFArB4cpwWQA/company-logo_200_200/company-logo_200_200/0/1630636293842?e=1779321600&v=beta&t=EIXfQiv4yKtYeOb1TjVg3JXctNybFu--jqBBrNDn-L8",
+      image:
+        "https://media.licdn.com/dms/image/v2/C560BAQHFArB4cpwWQA/company-logo_200_200/company-logo_200_200/0/1630636293842?e=1779321600&v=beta&t=EIXfQiv4yKtYeOb1TjVg3JXctNybFu--jqBBrNDn-L8",
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -406,11 +427,15 @@ const achievementSection = {
     },
     {
       title: "Contributor at Zustro",
-      subtitle: "Contributed to the successful launch of a new production release, supporting development and deployment efforts across the team. Completed certification recognizing contribution to the project’s delivery and production readiness.",
+      subtitle:
+        "Contributed to the successful launch of a new production release, supporting development and deployment efforts across the team. Completed certification recognizing contribution to the project’s delivery and production readiness.",
       image: require("./assets/images/zustrocom_cover.jpeg"),
       imageAlt: "Certificate Image",
       footerLink: [
-        {name: "Certification", url: "https://media.licdn.com/dms/image/v2/C562DAQE9KCFNzuKsYQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1599235009405?e=1778389200&v=beta&t=B5lmnxQfV1qbOGeSbcEFks3vsqxLLHMyKc18zMtcyzw"},
+        {
+          name: "Certification",
+          url: "https://media.licdn.com/dms/image/v2/C562DAQE9KCFNzuKsYQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1599235009405?e=1778389200&v=beta&t=B5lmnxQfV1qbOGeSbcEFks3vsqxLLHMyKc18zMtcyzw"
+        }
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -419,7 +444,8 @@ const achievementSection = {
     },
     {
       title: "Freelance",
-      subtitle: "Built a web-based guide platform for the Kampot Governor’s Department, helping showcase local information and improve public access to regional resources.",
+      subtitle:
+        "Built a web-based guide platform for the Kampot Governor’s Department, helping showcase local information and improve public access to regional resources.",
       image: require("./assets/images/kampottic.jpg"),
       imageAlt: "Certificate Image",
       footerLink: [
