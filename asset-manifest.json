@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77073463.css",
+    "main.js": "/static/js/main.7d006b96.js",
+    "static/css/487.3faafe63.chunk.css": "/static/css/487.3faafe63.chunk.css",
+    "static/js/487.9779af71.chunk.js": "/static/js/487.9779af71.chunk.js",
+    "static/css/990.60657283.chunk.css": "/static/css/990.60657283.chunk.css",
+    "static/js/990.52b8b76c.chunk.js": "/static/js/990.52b8b76c.chunk.js",
+    "static/media/bbu-logo.png": "/static/media/bbu-logo.77791b068810507ada26.png",
+    "static/media/Kex-Exchange.png": "/static/media/Kex-Exchange.9e342e8fcaaa03e51c0e.png",
+    "static/media/cotafer-booking.png": "/static/media/cotafer-booking.f53afa95c9c5b9a566fc.png",
+    "static/media/tovban-website-sample.png": "/static/media/tovban-website-sample.27bf1e53bb44f363edcf.png",
+    "static/media/kampottic.jpg": "/static/media/kampottic.67250ac033898f67ba2f.jpg",
+    "static/media/activeitzone-ecommerce.png": "/static/media/activeitzone-ecommerce.d7268bd54b3483a40303.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/zustrocom_cover.jpeg": "/static/media/zustrocom_cover.cd95b49864e1db676660.jpeg",
+    "static/media/kex-logo.png": "/static/media/kex-logo.ba09590cd7a040d5dfd2.png",
+    "static/media/macan-regular.woff": "/static/media/macan-regular.b398ecfd3f1955c49e04.woff",
+    "static/media/cotafer-logo.jpg": "/static/media/cotafer-logo.f55ddf871234ba56e24c.jpg",
+    "static/media/macan-bold.woff2": "/static/media/macan-bold.cf2da9c408beeab3fccb.woff2",
+    "static/media/macan-light.woff2": "/static/media/macan-light.9aab970dd8c2b3e6a5af.woff2",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/tovban-logo.jpg": "/static/media/tovban-logo.4ab288549f161b67e8a2.jpg",
+    "static/media/reddot-logo.jpeg": "/static/media/reddot-logo.198a74d97e457c71df8b.jpeg",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/Nest.js.svg": "/static/media/Nest.js.e0a8a56cfecbbedd95f3613706ec260c.svg",
+    "index.html": "/index.html",
+    "static/media/Next.js.svg": "/static/media/Next.js.17fe1720dcc66b60fc1a5a70d104d1dd.svg",
+    "main.77073463.css.map": "/static/css/main.77073463.css.map",
+    "main.7d006b96.js.map": "/static/js/main.7d006b96.js.map",
+    "487.3faafe63.chunk.css.map": "/static/css/487.3faafe63.chunk.css.map",
+    "487.9779af71.chunk.js.map": "/static/js/487.9779af71.chunk.js.map",
+    "990.60657283.chunk.css.map": "/static/css/990.60657283.chunk.css.map",
+    "990.52b8b76c.chunk.js.map": "/static/js/990.52b8b76c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77073463.css",
+    "static/js/main.7d006b96.js"
+  ]
+}
