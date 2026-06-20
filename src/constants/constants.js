@@ -41,6 +41,16 @@ export const FLOATING_TOKENS = [
     position: {top: "65%", left: "85%"}, // Moved further right
     size: "md"
   },
+  // {
+  //   id: "wbtc",
+  //   symbol: "WBTC",
+  //   name: "Wrapped BTC",
+  //   priceChange: 2.1,
+  //   color: "#F7931A",
+  //   fallbackLetter: "₿",
+  //   position: {top: "15%", left: "65%"},
+  //   size: "md"
+  // },
   {
     id: "wbtc",
     symbol: "WBTC",

@@ -43,12 +43,11 @@ const greeting = {
           I’m a passionate Full Stack Developer 🚀
         </span>{" "}
         with experience building modern web applications using JavaScript,
-        React, Vue, Node.js, PHP, and Python.
+        React, Vue, Node.js, PHP, and Python, and Java Spring Boot.
       </p>
 
       <p>
-        I enjoy creating scalable, user-friendly solutions and continuously
-        learning new technologies.
+        Passionate about building scalable web applications and currently exploring Web3 and Blockchain technologies.
       </p>
     </>
   ),
@@ -81,15 +80,39 @@ const skillsSection = {
   // title: (<><span className="inline-text">Achievements And Certifications 🏆</span></>),
   skills: [
     <>
-      ⚡ Develop highly interactive Front-end, Back-end / User Interfaces for
-      your web applications
+      ⚡ Full Stack Web Development with React, Vue.js, Node.js, PHP, Python, and Spring Boot
     </>,
-    <>⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks</>,
+    <>⚡ API Development, Microservices Architecture, and Database Design</>,
     <>
-      ⚡ Integration of third party services such as Firebase/ AWS / Digital
-      Ocean
+      ⚡ Cryptocurrency Exchange Systems, Trading Platforms, Wallet Management, and Transaction Processing
+    </>,
+    <>
+      ⚡ Cryptocurrency Exchange Systems, Trading Platforms, Wallet Management, and Transaction Processing
+    </>,
+    <>
+      ⚡ Cloud Deployment, Third-Party Integrations, and Performance Optimization
+    </>,
+    <>
+      ⚡ Progressive Web Applications (PWA) and Responsive User Interfaces
+    </>,
+    <>
+      ⚡ Telegram Mini App Development, including Telegram Bot integration, Web Apps, and seamless user experiences within the Telegram ecosystem
     </>
   ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
   https://fontawesome.com/icons?d=gallery */

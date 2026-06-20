@@ -19,7 +19,7 @@ export default function Skills() {
         <Fade left duration={1000}>
           <div className="skills-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={codingPerson} width={600} height={450} />
+              <DisplayLottie animationData={codingPerson} width={650} height={650} />
             ) : (
               <img
                 alt="Man Working"
