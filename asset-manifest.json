@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.6c3c6f42.css",
-    "main.js": "/developer-portfolio/static/js/main.e0184386.js",
+    "main.css": "/developer-portfolio/static/css/main.470cf48e.css",
+    "main.js": "/developer-portfolio/static/js/main.6953f658.js",
     "static/css/487.3faafe63.chunk.css": "/developer-portfolio/static/css/487.3faafe63.chunk.css",
-    "static/js/487.9779af71.chunk.js": "/developer-portfolio/static/js/487.9779af71.chunk.js",
+    "static/js/487.511983f8.chunk.js": "/developer-portfolio/static/js/487.511983f8.chunk.js",
     "static/css/990.60657283.chunk.css": "/developer-portfolio/static/css/990.60657283.chunk.css",
-    "static/js/990.52b8b76c.chunk.js": "/developer-portfolio/static/js/990.52b8b76c.chunk.js",
+    "static/js/990.577bb2c0.chunk.js": "/developer-portfolio/static/js/990.577bb2c0.chunk.js",
     "static/media/bbu-logo.png": "/developer-portfolio/static/media/bbu-logo.77791b068810507ada26.png",
     "static/media/Kex-Exchange.png": "/developer-portfolio/static/media/Kex-Exchange.9e342e8fcaaa03e51c0e.png",
     "static/media/cotafer-booking.png": "/developer-portfolio/static/media/cotafer-booking.f53afa95c9c5b9a566fc.png",
@@ -29,15 +29,15 @@
     "static/media/Nest.js.svg": "/developer-portfolio/static/media/Nest.js.e0a8a56cfecbbedd95f3613706ec260c.svg",
     "index.html": "/developer-portfolio/index.html",
     "static/media/Next.js.svg": "/developer-portfolio/static/media/Next.js.17fe1720dcc66b60fc1a5a70d104d1dd.svg",
-    "main.6c3c6f42.css.map": "/developer-portfolio/static/css/main.6c3c6f42.css.map",
-    "main.e0184386.js.map": "/developer-portfolio/static/js/main.e0184386.js.map",
+    "main.470cf48e.css.map": "/developer-portfolio/static/css/main.470cf48e.css.map",
+    "main.6953f658.js.map": "/developer-portfolio/static/js/main.6953f658.js.map",
     "487.3faafe63.chunk.css.map": "/developer-portfolio/static/css/487.3faafe63.chunk.css.map",
-    "487.9779af71.chunk.js.map": "/developer-portfolio/static/js/487.9779af71.chunk.js.map",
+    "487.511983f8.chunk.js.map": "/developer-portfolio/static/js/487.511983f8.chunk.js.map",
     "990.60657283.chunk.css.map": "/developer-portfolio/static/css/990.60657283.chunk.css.map",
-    "990.52b8b76c.chunk.js.map": "/developer-portfolio/static/js/990.52b8b76c.chunk.js.map"
+    "990.577bb2c0.chunk.js.map": "/developer-portfolio/static/js/990.577bb2c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c3c6f42.css",
-    "static/js/main.e0184386.js"
+    "static/css/main.470cf48e.css",
+    "static/js/main.6953f658.js"
   ]
 }
