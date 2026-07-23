@@ -1,5 +1,28 @@
 @import "../../_globalColor";
 
+.achievement-main-div {
+  width: 100%;
+  overflow: visible;
+}
+
+.achievement-swiper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.achievement-swiper {
+  width: 100%;
+}
+
+.achievement-swiper .swiper-wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.achievement-swiper .swiper-slide {
+  flex-shrink: 0 !important;
+}
+
 .achievement-heading {
   font-family: caveat;
   font-size: 56px;

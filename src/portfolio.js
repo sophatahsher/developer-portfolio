@@ -47,7 +47,8 @@ const greeting = {
       </p>
 
       <p>
-        Passionate about building scalable web applications and currently exploring Web3 and Blockchain technologies.
+        Passionate about building scalable web applications and currently
+        exploring Web3 and Blockchain technologies.
       </p>
     </>
   ),
@@ -80,39 +81,28 @@ const skillsSection = {
   // title: (<><span className="inline-text">Achievements And Certifications 🏆</span></>),
   skills: [
     <>
-      ⚡ Full Stack Web Development with React, Vue.js, Node.js, PHP, Python, and Spring Boot
+      ⚡ Full Stack Web Development with React, Vue.js, Node.js, PHP, Python,
+      and Spring Boot
     </>,
     <>⚡ API Development, Microservices Architecture, and Database Design</>,
     <>
-      ⚡ Cryptocurrency Exchange Systems, Trading Platforms, Wallet Management, and Transaction Processing
+      ⚡ Cryptocurrency Exchange Systems, Trading Platforms, Wallet Management,
+      and Transaction Processing
     </>,
     <>
-      ⚡ Cryptocurrency Exchange Systems, Trading Platforms, Wallet Management, and Transaction Processing
+      ⚡ Cryptocurrency Exchange Systems, Trading Platforms, Wallet Management,
+      and Transaction Processing
     </>,
     <>
-      ⚡ Cloud Deployment, Third-Party Integrations, and Performance Optimization
+      ⚡ Cloud Deployment, Third-Party Integrations, and Performance
+      Optimization
     </>,
+    <>⚡ Progressive Web Applications (PWA) and Responsive User Interfaces</>,
     <>
-      ⚡ Progressive Web Applications (PWA) and Responsive User Interfaces
-    </>,
-    <>
-      ⚡ Telegram Mini App Development, including Telegram Bot integration, Web Apps, and seamless user experiences within the Telegram ecosystem
+      ⚡ Telegram Mini App Development, including Telegram Bot integration, Web
+      Apps, and seamless user experiences within the Telegram ecosystem
     </>
   ],
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
   https://fontawesome.com/icons?d=gallery */
@@ -346,13 +336,15 @@ const bigProjects = {
     {
       image: require("./assets/images/tovban-website-sample.png"),
       projectName: "Online Working Platform",
-      projectDesc: "Developed an online freelancing platform that connects local software developers with clients, enabling project collaboration and secure payments through ABA PayWay integration for a seamless transaction experience.",
+      projectDesc:
+        "Developed an online freelancing platform that connects local software developers with clients, enabling project collaboration and secure payments through ABA PayWay integration for a seamless transaction experience.",
       footerLink: []
     },
     {
       image: require("./assets/images/activeitzone-ecommerce.png"),
       projectName: "Ecommerce Website",
-      projectDesc: "Customized and enhanced an eCommerce platform, including backend management for orders, shipping transactions, and status tracking, to streamline business operations and improve user experience.",
+      projectDesc:
+        "Customized and enhanced an eCommerce platform, including backend management for orders, shipping transactions, and status tracking, to streamline business operations and improve user experience.",
       footerLink: []
     },
     {
@@ -455,6 +447,19 @@ const achievementSection = {
           name: "Kampottic",
           url: "https://kampottic.com"
         }
+      ]
+    },
+    {
+      title: "H5 Page",
+      subtitle:
+        "Designed and developed H5 web pages with responsive mobile-first experiences, focusing on performance, usability, and cross-device compatibility. Gained hands-on experience in building interactive mobile web applications and optimizing user experiences for different screen sizes.",
+      image: require("./assets/images/h5-page1.png"),
+      imageAlt: "Certificate Image",
+      footerLink: [
+        // {
+        //   name: "Certification",
+        //   url: "https://media.licdn.com/dms/image/v2/C562DAQE9KCFNzuKsYQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1599235009405?e=1778389200&v=beta&t=B5lmnxQfV1qbOGeSbcEFks3vsqxLLHMyKc18zMtcyzw"
+        // }
       ]
     }
   ],

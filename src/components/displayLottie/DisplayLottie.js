@@ -4,11 +4,7 @@ import Loading from "../../containers/loading/Loading";
 
 export default class DisplayLottie extends Component {
   render() {
-    const {
-      animationData,
-      width = "650px",
-      height = "450px"
-    } = this.props;
+    const {animationData, width = "650px", height = "450px"} = this.props;
 
     return (
       <Suspense fallback={<Loading />}>

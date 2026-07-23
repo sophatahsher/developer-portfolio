@@ -14,7 +14,7 @@ const tokens = [
   {id: 4, symbol: "Next.js", name: "Next.js", color: "#000000"},
   {id: 5, symbol: "Vue.js", name: "Vue.js", color: "#42B883"},
   {id: 6, symbol: "Spring Boot", name: "Spring Boot", color: "#6DB33F"},
-  {id: 7, symbol: "JS", name: "JS", color: "#F0DB4F"},
+  {id: 7, symbol: "JS", name: "JS", color: "#F0DB4F"}
 
   // add more tokens if needed
 ];
