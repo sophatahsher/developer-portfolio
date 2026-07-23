@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8d62b3fe.css",
-    "main.js": "/portfolio/static/js/main.575b2c0a.js",
+    "main.css": "/portfolio/static/css/main.4d69d6a4.css",
+    "main.js": "/portfolio/static/js/main.3f075b0f.js",
     "static/css/487.3faafe63.chunk.css": "/portfolio/static/css/487.3faafe63.chunk.css",
     "static/js/487.511983f8.chunk.js": "/portfolio/static/js/487.511983f8.chunk.js",
     "static/css/990.60657283.chunk.css": "/portfolio/static/css/990.60657283.chunk.css",
@@ -10,6 +10,7 @@
     "static/media/Kex-Exchange.png": "/portfolio/static/media/Kex-Exchange.9e342e8fcaaa03e51c0e.png",
     "static/media/cotafer-booking.png": "/portfolio/static/media/cotafer-booking.f53afa95c9c5b9a566fc.png",
     "static/media/tovban-website-sample.png": "/portfolio/static/media/tovban-website-sample.27bf1e53bb44f363edcf.png",
+    "static/media/h5-page1.png": "/portfolio/static/media/h5-page1.8ae0294608e6cf4fdfed.png",
     "static/media/kampottic.jpg": "/portfolio/static/media/kampottic.67250ac033898f67ba2f.jpg",
     "static/media/activeitzone-ecommerce.png": "/portfolio/static/media/activeitzone-ecommerce.d7268bd54b3483a40303.png",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -29,15 +30,15 @@
     "static/media/Nest.js.svg": "/portfolio/static/media/Nest.js.e0a8a56cfecbbedd95f3613706ec260c.svg",
     "index.html": "/portfolio/index.html",
     "static/media/Next.js.svg": "/portfolio/static/media/Next.js.17fe1720dcc66b60fc1a5a70d104d1dd.svg",
-    "main.8d62b3fe.css.map": "/portfolio/static/css/main.8d62b3fe.css.map",
-    "main.575b2c0a.js.map": "/portfolio/static/js/main.575b2c0a.js.map",
+    "main.4d69d6a4.css.map": "/portfolio/static/css/main.4d69d6a4.css.map",
+    "main.3f075b0f.js.map": "/portfolio/static/js/main.3f075b0f.js.map",
     "487.3faafe63.chunk.css.map": "/portfolio/static/css/487.3faafe63.chunk.css.map",
     "487.511983f8.chunk.js.map": "/portfolio/static/js/487.511983f8.chunk.js.map",
     "990.60657283.chunk.css.map": "/portfolio/static/css/990.60657283.chunk.css.map",
     "990.577bb2c0.chunk.js.map": "/portfolio/static/js/990.577bb2c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d62b3fe.css",
-    "static/js/main.575b2c0a.js"
+    "static/css/main.4d69d6a4.css",
+    "static/js/main.3f075b0f.js"
   ]
 }
