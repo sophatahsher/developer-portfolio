@@ -1,5 +1,10 @@
 @import "../../_globalColor";
-
+.greet-main-div {
+  display: flex;
+  align-items: center;
+  min-height: 800px;
+  overflow: hidden;
+}
 .main {
   width: 90%;
   padding: 20px 10px;
@@ -131,7 +136,13 @@
     display: block;
   }
   .greeting-image-div {
-    height: 256px;
+    // height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 320px;
+    margin-top: 20px;
   }
 }
 

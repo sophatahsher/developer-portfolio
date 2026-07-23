@@ -20,7 +20,7 @@ export default function Greeting() {
   return (
     <Fade bottom duration={1000} distance="40px">
       <div
-        className="relative w-full h-[600px] md:h-[700px] lg:h-[800px]"
+        className="relative w-full h-[600px] md:h-[700px] lg:h-[800px] greet-main-div"
         id="greeting"
       >
         <div className="greet-main relative">
@@ -67,7 +67,8 @@ export default function Greeting() {
             </div>
             <div className="greeting-image-div">
               {illustration.animated ? (
-                <DisplayLottie animationData={greatingPerson} width={650} height={450} />
+                // <DisplayLottie animationData={greatingPerson} width={650} height={450} />
+                <DisplayLottie animationData={greatingPerson} />
               ) : (
                 <img
                   alt="man sitting on table"
